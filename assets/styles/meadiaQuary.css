@@ -322,9 +322,45 @@
     }
 
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1180px) {
     .other-projects {
         margin-left: 5%;
+    }
+    .about-image2 {
+        width: 330px;
+        height: 255px;
+        left: 150px;
+        z-index: -1;
+    }
+    .about-right-div {
+        margin-top: 10%;
+        margin-left: 7px;
+    }
+    .about-section-content-right {
+        margin-left: -40%;
+        margin-top: -40%;
+    }
+    .about-section-content-left {
+        width: 512px;
+        margin-top: 47%;
+        margin-left: 10%;
+    }
+    .about-image-div {
+        width: 360px;
+        height: 360px;
+    }
+    .about-image-bg-div {
+        width: 360px;
+        height: 365px;
+    }
+    .service-list {
+        grid-gap: 20px;
+        margin-left: 20%;
+    }
+    .service-list div {
+        width: 301px;
+        padding: 56px;
+        font-size: 15px;
     }
 }
 
