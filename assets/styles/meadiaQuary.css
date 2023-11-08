@@ -11,5 +11,36 @@
         height: 310px;
         margin: 10px;
     }
+    .left-align-featured-project-right1 {
+        width: 640px;
+        height: 370px;
+    }
+    .right-align-featured-project-left1 {
+        width: 640px;
+        height: 370px;
+    }
+    .left-align-featured-project-right2 {
+        width: 640px;
+        height: 340px;
+    }
+    .right-align-featured-project-left2 {
+        width: 640px;
+        height: 370px;
+    }
+}
+@media all and (max-width: 1610px){
+    .about-image2 {
+        width: 430px;
+        height: 300px;
+    }
+    .about-image1 {
+        width: 315px;
+        height: 420px;
+    }
+    .about-image-middle {
+        left: 288px;
+    }
 
 }
+
+

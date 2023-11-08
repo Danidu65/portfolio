@@ -1143,7 +1143,7 @@ body .galary > h1{
   justify-content: center;
   align-items: center;
   /*border: 1px solid white;*/
-  width: 1600px;
+  width: 100%;
   height: max-content;
   left: 0;
   right: 0;
