@@ -54,7 +54,288 @@
 }
 @media all and (max-width: 1550px){
 
+    .service-list div {
+        width: 330px;
+        padding: 60px;
+        font-size: 16px;
+    }
+    .about-image2 {
+        width: 400px;
+        height: 302px;
+    }
+    .about-image1 {
+        width: 300px;
+        height: 415px;
+    }
+    .about-image-middle {
+        left: 250px;
+    }
+    .other-projects-content {
+        gap: 20px;
+        margin-top: 8%;
+    }
 }
+@media all and (max-width: 1550px){
+    .gallery-container > div > div {
+        width: 360px;
+        height: 288px;
+    }
+    .gallery-container > div {
+        width: 360px;
+        height: 288px;
+        margin: 10px;
+    }
+    .about-image2 {
+        width: 400px;
+        height: 302px;
+        z-index: -1;
+    }
+}
+@media all and (max-width: 1550px){
+    .service-list div {
+        width: 315px;
+        padding: 60px;
+        font-size: 16px;
+    }
+    .container {
+        max-width: 1000px;
+        width: 100%;
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+    .left-align-featured-project-right1 {
+        width: 640px;
+        height: 300px;
+    }
+    .right-align-featured-project-left1 {
+        width: 640px;
+        height: 300px;
+    }
+    .left-align-featured-project-right2 {
+        width: 640px;
+        height: 285px;
+    }
+    .right-align-featured-project-left2 {
+        width: 640px;
+        height: 320px;
+    }
+    .other-projects-content {
+        gap: 15px;
+        margin-top: 8%;
+    }
+    .other-project-card {
+        width: 340px;
+        height: 390px;
+        padding: 25px;
+    }
+    .about-content-boxes >div {
+        width: 200px;
+        height: 190px;
+    }
+    .about-right-div {
+        margin-left: 10px;
+    }
+    .about-image2 {
+        /*width: 400px;*/
+        /*height: 302px;*/
+        z-index: 0;
+    }
+}
+@media all and (max-width: 1450px){
+    .about-image-bg-div {
+        position: relative;
+        left: -20px;
+        z-index: -2;
+    }
+    .about-image-div {
+        position: absolute;;
+        left: -40px;
+        z-index: -1;
+    }
+    .gallery-container > div {
+        width: 355px;
+        height: 288px;
+        margin: 4px;
+    }
+    body .galary {
+        height: 1500px;
+    }
+}
+
+@media all and (max-width: 1420px){
+    .left-socials {
+        margin-left: 0;
+    }
+}
+@media all and (max-width: 1380px){
+    .service-list {
+        grid-gap: 25px;
+    }
+    .service-list div {
+        width: 300px;
+        padding: 70px;
+        font-size: 15px;
+    }
+    .other-projects-content {
+        gap: 7px;
+    }
+    .other-project-card {
+        width: 325px;
+        height: 392px;
+        padding: 27px;
+    }
+    .about-left-div>h1 {
+        font-size: 30px;
+    }
+    .about-left-div>h3 {
+        font-size: 14px;
+    }
+    .about-image1 {
+        width: 280px;
+        height: 400px;
+    }
+    .about-image2 {
+        width: 360px;
+        height: 260px;
+        left: 190px;
+        z-index: -1;
+    }
+    .about-image-middle {
+        left: 235px;
+    }
+    .gallery-container > div > div {
+        width: 335px;
+        height: 280px;
+    }
+    .gallery-container > div {
+        width: 334px;
+        height: 280px;
+    }
+    #contact input, textarea {
+        width: 125%;
+    }
+    .button {
+        width: 120px;
+        height: 60px;
+    }
+}
+@media all and (max-width: 1350px) {
+    #home-subtitle {
+        font-size: 60px;
+    }
+    .about-image-bg-div {
+        position: relative;
+        left: -40px;
+        z-index: -2;
+    }
+
+    .about-image-div {
+        position: absolute;;
+        left: -60px;
+        z-index: -1;
+    }
+    .left-align-featured-project-right1 {
+        width: 640px;
+        height: 270px;
+    }
+    .right-align-featured-project-left1 {
+        width: 640px;
+        height: 240px;
+    }
+    .left-align-featured-project-right2 {
+        width: 640px;
+        height: 220px;
+    }
+    .right-align-featured-project-left2 {
+        width: 640px;
+        height: 285px;
+    }
+}
+@media all and (max-width: 1300px) {
+    .left-socials {
+        margin-left: -10px;
+    }
+}
+@media all and (max-width: 1280px) {
+    .gallery-container > div {
+        width: 384px;
+        height: 281px;
+        margin: 23px;
+    }
+    .gallery-container > div > div {
+        width: 386px;
+        height: 284px;
+    }
+    .testimoinal-section {
+        margin: 55% 15% 0 20%;
+    }
+    .about-image1 {
+        width: 250px;
+        height: 370px;
+    }
+    .about-right-div {
+        margin-left: 5px;
+    }
+    .about-image-middle {
+        left: 190px;
+    }
+    .about-image2 {
+        width: 340px;
+        height: 250px;
+        left: 163px;
+    }
+    .about-image-div {
+        position: absolute;
+        left: -90px;
+    }
+    .about-image-bg-div {
+        position: relative;
+        left: -60px;
+    }
+}
+@media all and (max-width: 1250px) {
+    #home-subtitle {
+        font-size: 50px;
+    }
+    .about-section-content-left {
+        width: 513px;
+    }
+    .other-project-card {
+        width: 320px;
+    }
+
+}
+@media all and (max-width: 1220px) {
+    .service-list div {
+        width: 300px;
+        padding: 65px;
+        font-size: 15px;
+    }
+    .container {
+        max-width: 978px;
+    }
+    .left-socials {
+        margin-left: -25px;
+    }
+    .about-left-div {
+        width: 425px;
+    }
+
+}
+@media all and (max-width: 1200px) {
+    .other-projects {
+        margin-left: 5%;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 

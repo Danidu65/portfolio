@@ -677,11 +677,11 @@ nav > ul>li>a{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
-  margin-top: 7%; 
+  margin-top: 7%;
 }
 .other-project-card {
   width: 360px;
-  height: 340px;
+  height: 375px;
   border: 1px solid var(--secondary-color);
   padding: 25px;
 }
