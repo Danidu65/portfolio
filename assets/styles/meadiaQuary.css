@@ -40,7 +40,21 @@
     .about-image-middle {
         left: 288px;
     }
+}
+@media all and (max-width: 1600px){
+    .gallery-container > div {
+        width: 384px;
+        height: 288px;
+        margin: 8px;
+    }
+    .gallery-container > div > div {
+        width: 382px;
+        height: 288px;
+    }
+}
+@media all and (max-width: 1550px){
 
 }
+
 
 
