@@ -1,0 +1,15 @@
+@media all and (max-width: 1675px){
+    .about-right-div {
+        margin-left: 100px;
+    }
+    .gallery-container > div > div {
+        width: 400px;
+        height: 300px;
+    }
+    .gallery-container > div {
+        width: 400px;
+        height: 310px;
+        margin: 10px;
+    }
+
+}
