@@ -22,6 +22,7 @@
   background-color: var(--secondary-color);
   border-radius: 10px;
 }
+
 body{
     background: var(--body-color);
     position: relative;

@@ -1,0 +1,128 @@
+nav  {
+    height: 8vh;
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+
+
+/*logo*/
+nav > div:first-child {
+    position: absolute;
+    height: 5vh;
+    width: 15vw;
+    background-color: white;
+    left: 2vw;
+    top: 1vh;
+
+}
+
+nav > div > img {
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+
+/*navbar options*/
+nav > div:nth-child(2) {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    height: max-content;
+    width: max-content;
+    background-color: white;
+    right: 1vh;
+
+}
+
+nav > div:nth-child(2) > ol > li {
+    display: inline-block;
+    margin: 2vh;
+    margin-top: 1vh;
+
+}
+
+
+/*side bar*/
+section {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;;
+    background-color: red;
+    position: relative;
+
+}
+
+section > div:first-child {
+    width: 17%;
+    height: 100%;
+    position: absolute;
+    background-color: #4C0083;
+}
+
+section > div:first-child > li {
+    margin-top: 3vh;
+    margin-left: 2vw;
+    display: block;
+    color: white;
+}
+
+
+/*content*/
+section > div:nth-child(2) {
+    border-top: 4px solid black;
+    width: 81%;
+    background-color: white;
+    padding: 1%;
+    position: relative;
+    left: 17%;
+
+}
+
+section > div:nth-child(2) > div {
+    position: relative;
+    /*padding-right: 4px;*/
+
+}
+
+section > div:nth-child(2) > p {
+    justify-content: center;
+}
+
+section > div:nth-child(2) > div > img {
+    position: relative;
+    width: 27vw;
+    aspect-ratio: auto;
+    border: 2px solid red;
+    border-bottom: 2px solid green;
+
+}
+
+section > div:nth-child(2) > div > img:nth-child(2) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+section > div:nth-child(2) > div > img:nth-child(3) {
+    position: absolute;
+    right: 0;
+
+}
+
+section > div:nth-child(2) > div > img:nth-child(2) {
+    z-index: 10;
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+}
+
+body > div {
+    background-color: grey;
+
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-family: 'Roboto', sans-serif;
+
+}
+

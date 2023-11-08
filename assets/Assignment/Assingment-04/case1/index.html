@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case 01</title>
+    <link rel="stylesheet" href="/normalize.css">
+    <style>
+        nav{
+            position: absolute;
+            height: fit-content;
+            margin: auto;
+            bottom: 0;
+            top: 0;
+
+        }
+        div{
+            width: 48px;
+            height: 48px;
+            background-color: mediumpurple;
+            position: relative;
+            display: flex;
+            margin-top: 15px;
+            transition-property: width, background-position,font-size;
+            transition-duration: 2s;
+            font-size: 0px;
+            border-bottom-right-radius: 25px;
+            border-top-right-radius: 25px;
+            justify-content: center;
+            align-items: center;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        }
+        div>img{
+            width: 32px;
+            height: 32px;
+            padding-top: 8px;
+            padding-right: 4px;
+            position:absolute;
+            right: 0;
+            top: 0;
+        }
+
+        div:hover{
+            width: 195px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <div><h3>Github</h3><img src="assets/social (9).png" /></div>
+    <div><h3>Linkdin</h3><img src="assets/social (10).png" /></div>
+    <div><h3>Twitter</h3><img src="assets/social (11).png" /></div>
+    <div><h3>Instagram</h3><img src="assets/social (12).png" /></div>
+    <div><h3>Reddit</h3><img src="assets/social (13).png" /></div>
+</nav>
+</body>
+</html>
