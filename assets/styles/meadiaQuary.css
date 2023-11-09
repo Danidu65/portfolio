@@ -648,6 +648,14 @@
     body{
         overflow-x: hidden;
     }
+    .about-section-content-right {
+        margin-left: -51%;
+        margin-top: -53%;
+    }
+    .about-right-div {
+        margin-top: 65%;
+        margin-left: -71%;
+    }
 }
 @media all and (max-width: 800px) {
 
