@@ -587,10 +587,72 @@
     .about-content-boxes >div {
         z-index: -1;
     }
+    .purple-line {
+        margin-left: 5px;
+    }
+    body{
+        overflow-x: hidden;
+    }
 }
-@media all and (max-width: 865px) {
+@media all and (max-width: 850px) {
+    .project-description-card {
+        width: 485px;
+        height: 100px;
+    }
+    .project-description-card p {
+        font-size: 12px;
+    }
+    .left-align-featured-project-wrapper {
+        margin: 15% -102px 15% -29px
+    }
+    .left-align-featured-project-right1 {
+        height: 180px;
+    }
+    .right-align-featured-project-wrapper {
+        margin: 15% -100px 15% -25px;
+    }
+    .right-align-featured-project-left1 {
+        height: 160px;
+    }
+    .left-align-featured-project-right2 {
+        height: 168px;
+    }
+    .right-align-featured-project-left2 {
+        height: 200px;
+    }
+    .about-image1 {
+        width: 230px;
+        height: 350px;
+    }
+    .about-image2 {
+        width: 300px;
+        height: 218px;
+        left: 140px;
+        z-index: 0;
+    }
+    .about-content-boxes {
+        margin-left: 51%;
+    }
+    .about-image-middle {
+        left: 180px;
+    }
+    .about-right-div {
+        margin-top: 60%;
+    }
+    .gallery-container > div > div {
+        width: 290px;
+    }
+    .gallery-container > div {
+        width: 290px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media all and (max-width: 800px) {
 
 }
+
 
 
 
