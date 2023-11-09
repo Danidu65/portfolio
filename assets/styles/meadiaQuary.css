@@ -666,6 +666,14 @@
 
 }
 @media all and (max-width: 800px) {
+    .testi .wrapper {
+        gap: 43px;
+        padding: 5px 50px;
+    }
+    .testimonial-left h3 {
+        font-size: 14px;
+    }
+
     .home-section h1 {
         font-size: 60px;
     }
@@ -734,9 +742,200 @@
         height: 255px;
     }
 }
+@media all and (max-width: 780px) {
+    .about-content-boxes {
+        margin-left: 48%;
+    }
+    .about-right-div {
+        margin-top: 58%;
+    }
+}
+@media all and (max-width: 765px) {
+    .testimonial-section-title h1 {
+        font-size: 27px;
+    }
+    .testi {
+        max-width: 550px;
+    }
+    .testi .aside > p::before {
+        top: -42px;
+        left: 11px;
+    }
+    .testi .aside .name {
+        left: 41%;
+    }
+    #contact .sub-title {
+        margin-left: -40%;
+    }
+    #contact input, textarea {
+        margin-left: -45%;
+        width: 213%;
+    }
+    #contact p {
+        margin-left: -38%;
+    }
+}
+@media all and (max-width: 750px) {
+    .home-section h1 {
+        font-size: 57px;
+    }
+    .about-image-div {
+        width: 310px;
+        height: 310px;
+    }
+    .about-image-bg-div {
+        width: 315px;
+        height: 320px;
+    }
+    .about-section-content-left {
+        margin-top: 65%;
+        margin-left: 5%;
+    }
+    .service-list {
+        grid-gap: 1% 0;
+    }
+    #service {
+        margin-left: -8%;
+    }
+}
+@media all and (max-width: 700px) {
+    #service {
+        padding: 30px 2px 0 130px;
+    }
+    .other-projects-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin-top: 7%;
+    }
+    .about-content-boxes {
+        margin-left: 7%;
+        margin-top: -4%;
+    }
+    .about-right-div {
+        margin-top: 100%;
+        margin-left: -62%;
+    }
+    .gallery-container > div {
+        width: 300px;
+        height: 270px;
+        margin: 22px;
+    }
+    .gallery-container > div > div {
+        width: 300px;
+        height: 270px;
+    }
+    .testimoinal-section {
+        margin: 308% 9% 0 14%;
+    }
+    .left-socials {
+        margin-left: -40px;
+    }
+}
+@media all and (max-width: 675px) {
+    .home-section h1 {
+        font-size: 52px;
+    }
+    #home-subtitle {
+        margin-top: -7px;
+        font-size: 33px;
+    }
+    .page-end-quote>h3 {
+        font-size: 17px;
+    }
+    .home-section>.page-end-quote {
+        margin-top: 280px;
+    }
+    .about-section-content-right {
+        margin-left: -66%;
+        margin-top: -60%;
+    }
+    .about-section-content-left {
+        margin-top: 80%;
+        margin-left: -2%;
+    }
+}
 
+@media all and (max-width: 665px) {
+    .testimoinal-section {
+        margin: 340% 9% 0 14%;
+    }
+}
 
+@media all and (max-width: 650px) {
+    .home-section p {
+        font-size: 17px;
+        width: 400px;
+    }
+    .other-projects h1 {
+        font-size: 24px;
+    }
+    .about-right-div {
+        margin-top: 110%;
+        margin-left: -75%;
+    }
+    .featured-projects-section-title>.purple-line {
+        margin-left: 0;
+        margin-right: -40px;
+    }
 
-
-
-
+}
+@media all and (max-width: 650px) {
+    .testimoinal-section {
+        margin: 360% 9% 0 14%;
+    }
+    .page-end-quote>h3 {
+        font-size: 15px;
+    }
+    .home-section>.page-end-quote {
+        margin-top: 260px;
+    }
+    .about-section-content-right {
+        margin-left: -80%;
+        margin-top: -95%;
+    }
+    .about-section-content-left p {
+        margin-top: 30px;
+        width: 80%;
+    }
+    .project-description-card {
+        width: 430px;
+        height: 100px;
+    }
+    .left-align-featured-project-left h1 {
+        font-size: 18px;
+        margin-top: 3px;
+    }
+    .right-align-featured-project-right h1 {
+        font-size: 15px;
+    }
+    .right-align-featured-project-right h3 {
+        font-size: 14px;
+    }
+    .other-projects h1 {
+        font-size: 22px;
+    }
+    .about-right-div {
+        margin-top: 112%;
+        margin-left: -80%;
+    }
+    .testimonial-section-title h1 {
+        font-size: 22px;
+    }
+    .testi .wrapper {
+        gap: 43px;
+        padding: 12px 80px;
+    }
+    .testi :is(.swiper-button-next, .swiper-button-prev) {
+        background-color: var(--subtitles-color);
+         margin: -25px 30px;
+    }
+    #contact .sub-title {
+        margin-left: -80%;
+        font-size: 46px;
+    }
+    .featured-projects-section-title>.purple-line {
+        margin-left: 0;
+        margin-right: -69px;
+    }
+}
