@@ -37,6 +37,7 @@ body{
     right: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     display: grid;
+    z-index: 2;
     place-items: center;
     
   }
@@ -175,7 +176,7 @@ nav > ul{
 }
 nav>ul>li{
   cursor: pointer;
-  opacity: 0; 
+  opacity: 0;
 }
 nav>ul>li a{
   color: var(--titles-color);

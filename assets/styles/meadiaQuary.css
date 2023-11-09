@@ -546,7 +546,53 @@
         padding: 28px;
         font-size: 15px;
     }
+}
+@media all and (max-width: 890px) {
+    .home-section h1 {
+        font-size: 70px;
+    }
+    #home-subtitle {
+        font-size: 36px;
+    }
+    #contact input, textarea {
+        width: 150%;
+    }
+}
+@media all and (max-width: 865px) {
+    .home-section {
+        margin: 10% 15% 0 23%;
+    }
+    .about-image-div {
+        width: 325px;
+        height: 325px;
+    }
+    .about-image-bg-div {
+        width: 325px;
+        height: 330px;
+    }
+    .purple-line {
+        margin-left: -50px;
+        width: 150px;
+    }
+    nav > ul {
+        gap: 10px;
+    }
+    .why-section {
+        display: flex;
+        margin: 15% 0 0 17%;
+    }
+    .service-list div {
+        z-index: -1;
+    }
+    .about-content-boxes >div {
+        z-index: -1;
+    }
+}
+@media all and (max-width: 865px) {
 
 }
+
+
+
 
 
