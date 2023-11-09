@@ -666,6 +666,73 @@
 
 }
 @media all and (max-width: 800px) {
+    .home-section h1 {
+        font-size: 60px;
+    }
+    #home-subtitle {
+        margin-top: -10px;
+        font-size: 30px;
+    }
+    .home-section p {
+        font-size: 16px;
+        width: 500px;
+    }
+    .home-section {
+        margin: 20% 16% 0 22%;
+    }
+    .about-section-content-right {
+        margin-left: -60%;
+        margin-top: -55%;
+    }
+    .about-section-content-left {
+        margin-top: 60%;
+    }
+    .other-projects h1 {
+        font-size: 26px;
+    }
+    .about-content-boxes >div {
+        width: 175px;
+        height: 175px;
+    }
+    .icon-outer-1 {
+        width: 40px;
+    }
+    .about-content-boxes h3 {
+        font-size: 11px;
+    }
+    .about-content-boxes {
+        gap: 5px;
+    }
+    .about-image1 {
+        width: 200px;
+        height: 300px;
+    }
+    .about-image2 {
+        width: 270px;
+        height: 180px;
+        left: 130px;
+    }
+    .about-image-middle {
+        width: 150px;
+        height: 100px;
+        left: 160px;
+    }
+    .about-content-boxes {
+        margin-top: -6%;
+        margin-left: 46%;
+    }
+    .about-right-div {
+        margin-top: 55%;
+        margin-left: -69%;
+    }
+    .gallery-container > div > div {
+        width: 270px;
+        height: 250px;
+    }
+    .gallery-container > div {
+        width: 270px;
+        height: 255px;
+    }
 
 }
 
