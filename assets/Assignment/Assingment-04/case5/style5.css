@@ -24,28 +24,28 @@
     width: 40vw;
     height: 20vw;
     box-sizing: border-box;
-    background: url('/case5/assets/slide1.jpeg')center center no-repeat;
+    background: url('../case5/assets/slide1.jpeg')center center no-repeat;
     background-size: cover;
 }
 #img2{
     width: 40vw;
     height: 20vw;
     box-sizing: border-box;
-    background: url('/case5/assets/slide2.jpeg')center center no-repeat;
+    background: url('../case5/assets/slide2.jpeg')center center no-repeat;
     background-size: cover;
 }
 #img3{
     width: 40vw;
     height: 20vw;
     box-sizing: border-box;
-    background: url('/case5/assets/slide3.jpeg')center center no-repeat;
+    background: url('../case5/assets/slide3.jpeg')center center no-repeat;
     background-size: cover;
 }
 #img4{
     width: 40vw;
     height: 20vw;
     box-sizing: border-box;
-    background: url('/case5/assets/slide4.jpeg')center center no-repeat;
+    background: url('../case5/assets/slide4.jpeg')center center no-repeat;
     background-size: cover;
 }
 @keyframes slide {
