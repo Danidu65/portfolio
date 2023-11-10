@@ -1146,7 +1146,7 @@
         margin-top: -123%;
     }
     .about-content-boxes {
-        margin: 17px 65px;
+        margin: 18px 70px 0 0;
     }
     .about-right-div {
         margin-top: 140%;
@@ -1276,7 +1276,7 @@
     }
 
     .about-content-boxes {
-        margin: 17px 117px;
+        margin: 17px 117px 0 0;
     }
 
     .about-right-div {
@@ -1379,6 +1379,15 @@
         width: 340%;
     }
 
+}
+@media all and (max-width: 380px) {
+    .about-content-boxes {
+        margin: 13px 127px 4px -7px;
+    }
+    .about-right-div {
+        margin-top: 179%;
+        margin-left: -137%;
+    }
 }
 @media all and (max-width: 390px) {
     .about-section-content-left p {
