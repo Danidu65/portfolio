@@ -1370,9 +1370,38 @@ span{
   text-decoration: underline;
 }
 
-/*----------------------------*/
 
-/*nav .fas {*/
-/*  display: none;*/
-/*  font-weight: 900;*/
-/*}*/
+
+/*mobile navbar*/
+.logo {
+  z-index: 6;
+}
+
+.menu-icon {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  /*border: 2px solid red;*/
+  right: 8vw;
+  z-index: 6;
+
+}
+
+.menu-icon > i {
+  display: none;
+  font-size: 28px;
+  transition: 0.2s linear;
+
+}
+
+.menu-icon > #close-menu:hover {
+  transform: rotate(90deg);
+
+}
+
+.menu-icon > i:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #8673e8;
+
+}
