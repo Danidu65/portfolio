@@ -737,6 +737,16 @@ nav > ul>li>a{
   font-size: 16px;
   font-weight: 600;
 }
+.other-project-card>ul a {
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  display: grid;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: space-between;
+  justify-items: stretch;
+}
 
 /* -------------------------------about-section----------------------------- */
 .about-left-div>h1{
