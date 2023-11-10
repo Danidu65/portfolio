@@ -24,6 +24,7 @@
 }
 
 body{
+    overflow-x: hidden;
     background: var(--body-color);
     position: relative;
 }
