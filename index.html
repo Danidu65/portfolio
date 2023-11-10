@@ -8,8 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="stylesheet" href="assets/styles/meadiaQuary.css">
+    <link rel="stylesheet" href="assets/styles/preloader.css"/>
+
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 
@@ -21,6 +24,16 @@
 
 </head>
 <body>
+<div id="preloader">
+    <div class="preloader-container">
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <span class="loading">Loading... </span>
+    </div>
+    <div id="preloader-bg"></div>
+</div>
+
     <div id="progress">
         <span id="progress-value"><a id="scroll-top"><i class='bx bxs-chevron-up'></i></a></span>
     </div>
@@ -60,7 +73,7 @@
 
                 <li>
                     <div class="Space-around">
-                        <div class="circle"> 
+                        <div class="circle">
                         </div>
                   </div>
                 </li>
@@ -72,7 +85,7 @@
 
             <div id="menu-bg" class="menu-bg"></div>
         </nav>
-        
+
     </header>
 
     <section id="home" class="home-section">
@@ -171,7 +184,7 @@
                         a police station plays a pivotal role in the criminal justice system,
                         serving as the first point of contact for individuals seeking help and initiating the process of maintaining law and order in a society.
                     </p>
-                    
+
                 </div>
                 <ul>
                     <li>Next.js</li>
@@ -183,7 +196,7 @@
                     <a href="https://github.com/Danidu65/Project-Police"><i class='bx bxl-github'></i></a></i>
                     <a href=""><i class='bx bxl-codepen' ></i></a>
                 </div>
-                
+
             </div>
             <div class="left-align-featured-project-right1"></div>
         </div>
@@ -197,7 +210,7 @@
                     <p>
                         A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars.Sort through your top repos by number of start,forks and size.
                     </p>
-                    
+
                 </div>
                 <ul>
                     <li>Next.js</li>
@@ -220,7 +233,7 @@
                     <p>
                         A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars.Sort through your top repos by number of start,forks and size.
                     </p>
-                    
+
                 </div>
                 <ul>
                     <li>Next.js</li>
@@ -232,7 +245,7 @@
                     <a href="https://github.com/Danidu65/Hostal-Management-System"><i class='bx bxl-github'></i></a></i>
                     <a href=""><i class='bx bxl-codepen' ></i></a>
                 </div>
-                
+
             </div>
             <div class="left-align-featured-project-right2"></div>
         </div>
@@ -502,7 +515,7 @@
             </div>
             <div class="about-image2"></div>
         </div>
-        
+
     </section>
 
     <section class="galary">
@@ -551,7 +564,7 @@
                 <h1><span class="purple">#</span>What My Clients Say </h1>
                 <div class="purple-line"></div>
             </div>
-            
+
             <h3 class="testimonial-sub">After every successful transaction, we always welcome feedback and reviews from our customers, so that we can become even more professional.</h3>
         </div>
         <div class="testimonial-right">
@@ -562,7 +575,7 @@
         <div id="page" class="site">
             <div class="container">
                 <div class="testi">
-                   
+
                     <div class="body swiper">
                         <ul class="swiper-wrapper">
                             <li class="swiper-slide">
@@ -579,7 +592,7 @@
                                     </div>
                                 </div>
                             </li>
-    
+
                             <li class="swiper-slide">
                                 <div class="wrapper">
                                     <div class="thumbnail">
@@ -624,7 +637,7 @@
                             </li>
                         </ul>
                         <div class="swiper-pagination"></div>
-    
+
                         <!-- If we need navigation buttons -->
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
@@ -671,7 +684,7 @@
         </div>
     </div>
 
-    
+
 
     <footer class="copyright-area">
         <div class="copyright-text">
@@ -685,27 +698,32 @@
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script>
+        window.addEventListener('load', () => {
+            document.getElementById("preloader").style.display = "none";
+
+        });
+
         const swiper = new Swiper('.swiper', {
             autoHeight: true,
             loop: true,
 
-            
+
             pagination: {
                 el: '.swiper-pagination',
             },
 
-            
+
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
 
-       
+
         });
 
         const dots = document.querySelectorAll('.bg-dots > .dot');
         dots.forEach((dot) => {
-            dot.style.animationDelay = `${Math.random() * 15}s`; 
+            dot.style.animationDelay = `${Math.random() * 15}s`;
             const randomDuration = 8 + Math.random() * 2;
             dot.style.animationDuration = `${randomDuration}s`;
         });
@@ -719,13 +737,13 @@
             let scrollvalue = Math.round(pos * 100 / calcHeight);
 
             scrollProgress.style.background = `conic-gradient(#8673E8 ${scrollvalue}%, #c0c0ff ${scrollvalue}%)`;
-        
+
         }
         window.onscroll = scrollPrecentage;
         window.onload = scrollPrecentage;
 
-       
-        
+
+
         const scrollTopLink = document.getElementById("scroll-top");
 
         scrollTopLink.onclick = function() {
@@ -733,7 +751,7 @@
         };
 
         window.addEventListener("scroll", function() {
-            if (window.scrollY > 200) { 
+            if (window.scrollY > 200) {
                 scrollTopLink.style.display = "block";
             } else {
                 scrollTopLink.style.display = "none";
@@ -746,7 +764,7 @@
          reset: false,
          distance: '100px',
          duration: 2000,
-         delay: 0 
+         delay: 0
     });
 
     ScrollReveal().reveal('.about-section-title');
@@ -771,7 +789,7 @@
     ScrollReveal().reveal('#why-desc',{delay: 200});
     ScrollReveal().reveal('.profession',{delay: 200});
     ScrollReveal().reveal('.reputation',{delay: 400});
-    ScrollReveal().reveal('.reasonable',{delay: 600});  
+    ScrollReveal().reveal('.reasonable',{delay: 600});
     ScrollReveal().reveal('.quality',{delay: 800});
     ScrollReveal().reveal('.about-image1',{origin: 'right', delay: 200});
     ScrollReveal().reveal('.about-image2',{origin: 'right', delay: 400});
@@ -783,7 +801,7 @@
  <script>
     const SpaceAround = document.querySelector(".Space-around");
     const container = document.querySelector(".circle");
-  
+
     const isDarkMode = localStorage.getItem("theme") === "dark";
 
     if (isDarkMode) {
@@ -804,32 +822,32 @@
           "--body-color": "#0B1931",
         },
       };
-  
+
       const selectedTheme = themes[theme];
       for (const [property, value] of Object.entries(selectedTheme)) {
         document.documentElement.style.setProperty(property, value);
       }
     }
-  
+
 
     const savedTheme = localStorage.getItem("theme");
     if (savedTheme) {
       applyTheme(savedTheme);
       document.body.classList.toggle("change-bg", savedTheme === "dark");
     }
-  
+
     SpaceAround.addEventListener("click", function () {
       container.classList.toggle("move");
       SpaceAround.classList.toggle("border");
-  
-      
+
+
       const currentTheme = document.body.classList.contains("change-bg") ? "light" : "dark";
-  
-      
+
+
       localStorage.setItem("theme", currentTheme);
-  
+
       applyTheme(currentTheme);
-  
+
       document.body.classList.toggle("change-bg");
     });
   </script>
