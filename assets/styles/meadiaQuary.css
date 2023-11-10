@@ -1046,6 +1046,9 @@
     }
 }
 @media all and (max-width: 570px) {
+    .about-section-content-right {
+        z-index: 1;
+    }
     .home-section h1 {
         font-size: 50px;
     }
@@ -1446,6 +1449,127 @@
         font-size: 12px;
     }
 }
+@media all and (max-width: 360px) {
+    .home-section p {
+        font-size: 14px;
+        width: 250px;
+    }
+    #home-subtitle {
+        font-size: 20px;
+    }
+    .home-section {
+        margin: 48% 1% 0 16%;
+    }
+    .about-section-content-right {
+        margin-top: -216%;
+    }
+    .about-left-div>h1 {
+        font-size: 22px;
+    }
+    .copyright-text p {
+        margin: 0;
+        font-size: 9px;
+    }
+    .about-right-div {
+        margin-top: 175%;
+        margin-left: -146%;
+    }
+}
 @media all and (max-width: 350px) {
+    .about-section-title {
+        font-size: 12px;
+        margin-right: -9%;
+    }
+    .about-section-content-left {
+        margin-top: 101%;
+        margin-left: 7%;
+    }
+    .service-list div {
+        width: 225px;
+        padding: 16px;
+        font-size: 13px;
+    }
+    .project-description-card {
+        width: 175px;
+        height: 275px;
+    }
+    .right-align-featured-project-right > .project-description-card {
+        position: relative;
+        right: 62px;
+    }
+    .other-project-card {
+        width: 225px;
+        height: 325px;
+    }
+    .about-image2 {
+        top: -175px;
+        width: 150px;
+        height: 120px;
+        left: 70px;
+    }
+    .about-image1 {
+        width: 140px;
+        height: 230px;
+    }
+    .about-right-div {
+        margin-top: 190%;
+        margin-left: -147%;
+    }
+    .about-image-middle {
+        width: 115px;
+        height: 80px;
+        left: 100px;
+    }
+    .gallery-container > div > div {
+        width: 200px;
+        height: 210px;
+    }
+    .gallery-container > div {
+        width: 200px;
+        height: 210px;
+    }
+    body .galary {
+        height: 1470px;
+    }
+    #contact .sub-title {
+        font-size: 30px;
+    }
+}
+@media all and (max-width: 335px) {
+    .page-end-quote>h3 {
+        font-size: 10px;
+    }
+    .home-section {
+        margin: 55% 1% 0 16%;
+    }
+    .about-section-content-right {
+        margin-top: -260%;
+    }
+    .featured-projects-section-title {
+        font-size: 14px;
+    }
+}
+@media all and (max-width: 325px) {
+    .about-right-div {
+        margin-top: 196%;
+        margin-left: -158%;
+    }
+    .about-content-boxes > div {
+        width: 110px;
+        height: 110px;
+    }
+    .icon-outer-1 {
+        width: 10px;
+    }
+    .about-content-boxes h1 {
+        font-size: 10px;
+    }
+    .about-content-boxes h3 {
+        font-size: 7px;
+    }
+    .about-section-content-right {
+        margin-top: -300%;
+    }
 
 }
+
