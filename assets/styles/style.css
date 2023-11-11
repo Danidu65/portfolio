@@ -397,6 +397,7 @@ nav > ul>li>a{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 }
 .about-section-title{
   display: flex;
@@ -516,6 +517,7 @@ nav > ul>li>a{
 
 /* ----------featured projects--------- */
 .featured-projects-section{
+  overflow: hidden;
   margin: 15% 10% 10% 20%;
 }
 .featured-projects-section-title{
@@ -769,6 +771,7 @@ nav > ul>li>a{
 .why-section{
   display: flex;
   margin: 15% 0 0 20%;
+  overflow-x: hidden;
 }
 .about-right-div{
   margin-left: 200px;
@@ -1139,6 +1142,7 @@ body .galary {
   width: 100%;
   height: 1700px;
   z-index: 0;
+  /*overflow: hidden;*/
 
 }
 
@@ -1418,3 +1422,16 @@ span{
   color: #8673e8;
 
 }
+
+
+h1 , h2 , h3 , h4 {
+  /*width: fit-content;*/
+
+}
+
+.contact {
+  overflow: hidden;
+}
+
+
+
