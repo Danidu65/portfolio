@@ -1582,8 +1582,16 @@
 
 }
 
-@media (max-width: 350px)
-.about-section-content-left {
-    margin-top: 101%;
-    margin-left: 10%;
+@media (max-width: 350px) {
+    .about-section-content-left {
+        margin-top: 101%;
+        margin-left: 10%;
+    }
+
+    .left-align-featured-project-wrapper {
+        margin: 15% -100px 15% 0;
+    }
+    .right-align-featured-project-wrapper {
+        margin: 9% -98px 15% 0px;
+    }
 }
