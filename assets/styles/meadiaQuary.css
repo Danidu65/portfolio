@@ -1582,3 +1582,8 @@
 
 }
 
+@media (max-width: 350px)
+.about-section-content-left {
+    margin-top: 101%;
+    margin-left: 10%;
+}

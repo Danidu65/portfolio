@@ -1413,7 +1413,6 @@ span{
 
 .menu-icon > #close-menu:hover {
   transform: rotate(90deg);
-
 }
 
 .menu-icon > i:hover {
@@ -1423,15 +1422,6 @@ span{
 
 }
 
-
-h1 , h2 , h3 , h4 {
-  /*width: fit-content;*/
-
-}
-
 .contact {
   overflow: hidden;
 }
-
-
-
