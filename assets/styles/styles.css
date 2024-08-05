@@ -233,3 +233,30 @@ img {
     font-size: 1.5rem;
   }
 }
+@media screen and (max-width: 1310px){
+  .container {
+    max-width: 1000px;
+  }
+}
+@media screen and (max-width: 1175px){
+  .container {
+    max-width: 965px;
+  }
+}
+@media screen and (max-width: 450){
+  .card__img {
+    width: 275px;
+  }
+  /* .card__img {
+    width: 220px;
+} */
+}
+@media screen and (max-width: 430){
+  /* .card__img {
+    width: 275px;
+  } */
+  .card__img {
+    width: 220px;
+}
+}
+

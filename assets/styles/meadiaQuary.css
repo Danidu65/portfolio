@@ -255,6 +255,9 @@
     .left-socials {
         margin-left: -10px;
     }
+    .about-section-content-left {
+        width: 500px;
+    }
 }
 @media all and (max-width: 1280px) {
     .gallery-container > div {
@@ -291,6 +294,9 @@
     .about-image-bg-div {
         position: relative;
         left: -60px;
+    }
+    .about-section-content-right {
+        margin-left: 12%;
     }
 }
 @media all and (max-width: 1250px) {
@@ -471,6 +477,10 @@
     .service-list {
         grid-gap: 10% 0%;
         margin-left: 20%;
+    }
+    .about-section-content-right {
+        margin-left: -45%;
+        margin-top: -50%;
     }
 }
 
@@ -828,6 +838,13 @@
     #contact p {
         margin-left: -38%;
     }
+    .about-section-content-left {
+        width: 450px;
+    }
+    .about-section-content-right {
+        margin-left: -59%;
+        margin-top: -76%;
+    }
 }
 @media all and (max-width: 750px) {
     .home-section h1 {
@@ -901,12 +918,12 @@
         margin-top: 280px;
     }
     .about-section-content-right {
-        margin-left: -66%;
-        margin-top: -60%;
+        margin-left: -60%;
+        margin-top: -81%;
     }
     .about-section-content-left {
-        margin-top: 80%;
-        margin-left: -2%;
+        margin-top: 74%;
+        margin-left: 12%;
     }
 }
 
@@ -1128,6 +1145,26 @@
         margin-left: -95%;
     }
 }
+@media all and (max-width: 520px) {
+    .about-section-content-right {
+        margin-left: -52%;
+    }
+    .about-image-div {
+        width: 280px;
+        height: 280px;
+    }
+    .about-image-bg-div {
+        width: 270px;
+        height: 280px;
+    }
+    .about-section-content-left {
+        margin-top: 125%;
+        margin-left: 7%;
+    }
+    .about-section-content-wrapper {
+        margin-top: -40%;
+    }
+}
 @media all and (max-width: 500px) {
     .about-content-boxes {
         margin: 17px 70px 1px 0;
@@ -1235,6 +1272,9 @@
 @media all and (max-width: 450px) {
     .home-section h1 {
         font-size: 40px;
+    }
+    .about-section-title {
+        font-size: 12px;
     }
 
     #home-subtitle {
@@ -1395,9 +1435,21 @@
         margin-top: 20px;
         width: 76%;
     }
+    .about-section-content-left {
+        margin-top: 78%;
+        margin-left: 12%;
+    }
     .about-right-div {
         margin-top: 170%;
         margin-left: -134%;
+    }
+    .about-image-div {
+        width: 220px;
+        height: 220px;
+    }
+    .about-image-bg-div {
+        width: 210px;
+        height: 220px;
     }
 }
 @media all and (max-width: 375px) {
@@ -1557,6 +1609,15 @@
     .featured-projects-section-title {
         font-size: 14px;
     }
+    .about-image-bg-div {
+        width: 190px;
+        height: 200px;
+    }
+    .about-image-div {
+        left: -37px;
+        width: 190px;
+        height: 210px;
+    }
 }
 @media all and (max-width: 325px) {
     .about-right-div {
@@ -1578,6 +1639,15 @@
     }
     .about-section-content-right {
         margin-top: -300%;
+    }
+    .about-image-div {
+        left: -28px;
+        width: 194px;
+        height: 214px;
+    }
+    .about-image-bg-div {
+        width: 173px;
+        height: 212px;
     }
 
 }

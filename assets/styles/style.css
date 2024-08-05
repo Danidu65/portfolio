@@ -402,6 +402,7 @@ nav > ul>li>a{
 .about-section-title{
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
   font-size: 18px;
   font-weight: 500;
   color: var(--titles-color);
