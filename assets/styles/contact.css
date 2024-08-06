@@ -1,0 +1,120 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+    scroll-behavior: smooth;
+}
+:root{
+  --titles-color : #00030a;
+  --subtitles-color : #7284A6;
+  --secondary-color : #8673E8;
+  --body-color: #FFFEFE;
+}
+
+.container {
+    background-color: var(--body-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--titles-color);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+#feedback {
+    margin-top: 10px;
+    color: #d9534f;
+    text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Phones (portrait and landscape) */
+/* @media (max-width: 576px) {
+    .container {
+        padding: 15px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 14px;
+    }
+} */
+
+/* Tablets (portrait) */
+/* @media (min-width: 577px) and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 15px;
+    }
+} */
+
+/* Tablets (landscape) and small laptops */
+/* @media (min-width: 769px) and (max-width: 992px) {
+    .container {
+        padding: 25px;
+    }
+
+    button {
+        padding: 14px;
+        font-size: 16px;
+    }
+} */
+
+/* Laptops and larger screens */
+/* @media (min-width: 993px) {
+    .container {
+        padding: 30px;
+    }
+
+    button {
+        padding: 15px;
+        font-size: 16px;
+    }
+}  */
