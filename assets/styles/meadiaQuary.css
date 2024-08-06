@@ -1190,6 +1190,10 @@
         margin-left: -72%;
         margin-top: -123%;
     }
+    .about-section-content-left {
+        margin-top: 82%;
+        margin-left: 11%;
+    }
     .about-content-boxes {
         margin: 18px 70px 0 0;
     }
@@ -1279,6 +1283,9 @@
         margin-top: 155%;
         margin-left: -110%;
     }
+    .about-section-content-wrapper {
+        margin-top: -10%;
+    }
 }
 @media all and (max-width: 450px) {
     .home-section h1 {
@@ -1286,6 +1293,12 @@
     }
     .about-section-title {
         font-size: 12px;
+    }
+    .about-section-content-left {
+        margin-top: 100%;
+    }
+    .about-section-content-wrapper {
+        margin-top: -22%;
     }
 
     #home-subtitle {
@@ -1403,8 +1416,11 @@
     .about-section-content-right {
         margin-top: -173%;
     }
+    .about-section-content-left {
+        margin-top: 80%;
+    }
     .about-section-content-wrapper {
-        margin-top: 14%;
+        margin-top: -2%;
     }
     .project-description-card {
         width: 200px;
