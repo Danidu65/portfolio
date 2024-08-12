@@ -1331,12 +1331,11 @@ span{
   position: relative;
 }
 #contact input , textarea{
-
   width: 100%;
   padding: 17px;
   border: none;
   outline: none;
-  background: var(--subtitles-color);
+  background: var(--titles-color);
   color: var(--body-color);
   font-size: 1.1rem;
   margin-bottom: 0.7rem;
