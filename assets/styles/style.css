@@ -1335,8 +1335,9 @@ span{
   padding: 17px;
   border: none;
   outline: none;
-  background: var(--titles-color);
-  color: var(--body-color);
+  /* background: var(--titles-color); */
+  border: 2px solid var(--secondary-color);
+  color: var(--subtitles-color);
   font-size: 1.1rem;
   margin-bottom: 0.7rem;
   border-radius: 10px;
